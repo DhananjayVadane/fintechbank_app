@@ -43,5 +43,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://DhananjayVadane.github.io/fintechbank_app"
+  "homepage": "https://DhananjayVadane.github.io/fintechbank_app",
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+  }
 }
