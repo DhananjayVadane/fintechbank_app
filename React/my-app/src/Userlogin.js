@@ -97,12 +97,18 @@ function Userlogin() {
                   onChange={handleChange}
                 />
                 <div style={styles.linkContainer}>
-                  <a href="#" style={styles.link}>
+                  <button
+                    onClick={() => alert("Forgot customer ID clicked")}
+                    style={styles.link}
+                  >
                     Forgot customer ID
-                  </a>
-                  <a href="#" style={styles.link}>
+                  </button>
+                  <button
+                    onClick={() => alert("Enable login ID clicked")}
+                    style={styles.link}
+                  >
                     Enable login ID
-                  </a>
+                  </button>
                 </div>
               </Form.Group>
 

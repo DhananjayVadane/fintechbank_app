@@ -63,7 +63,7 @@ function AccountOpen() {
     panNumber: "",
   });
 
-  const [message, setMessage] = useState("");
+  const [setMessage] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
